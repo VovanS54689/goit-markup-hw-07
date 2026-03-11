@@ -11,6 +11,7 @@
 @use "./layout/services";
 @use "./layout/team";
 @use "./layout/footer";
+@use "./layout/clients";
 
 @use "./components/buttons";
 @use "./components/form";
@@ -18,8 +19,7 @@
 @use "./components/logo";
 @use "./components/modal";
 @use "./components/social";
-@use "./layout/clients";
+
 @use "./components/thumb";
 
-@use "./pages/home";
 @use "./pages/portfolio";

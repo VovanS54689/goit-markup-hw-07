@@ -9,7 +9,7 @@
     rel="stylesheet" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
@@ -50,10 +50,10 @@
     <section class="hero section">
       <div class="container">
         <h1 class="hero__title">
-          Ефективні рішення для <br />
-          вашого бізнесу
+          ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
+          ВАШОГО БІЗНЕСУ
         </h1>
-        <button data-modal-open class="button button--primary button--hero" type="button">
+        <button data-modal-open class="button button--primary" type="button">
           Замовити послугу
         </button>
       </div>
@@ -417,14 +417,14 @@
 
         <div class="form-field">
           <label for="comment">Коментар</label>
-          <textarea id="comment" rows="5" placeholder="Введіть текст"></textarea>
+          <textarea id="comment" rows="5" name="comment" placeholder="Введіть текст"></textarea>
         </div>
 
         <label class="checkbox">
           <input type="checkbox" name="agreement" class="checkbox-input" />
           <span class="checkbox-icon"></span>
           Погоджуюся з розсилкою та приймаю
-          <a href="#">Умови договору</a>
+          <a class="checkbox__link" href="#">Умови договору</a>
         </label>
 
         <button type="submit" class="button button--primary">Відправити</button>
